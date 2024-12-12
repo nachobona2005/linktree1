@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:blue;
+            color: #ecf0f1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background:black;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 350px;
+            width: 90%;
+        }
+
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #ecf0f1;
+            margin: 0 auto 15px;
+        }
+
+        h1 {
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .link {
+            display: block;
+            background: blue;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 25px;
+            margin: 10px 0;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .link:hover {
+            background: blue;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 22px;
+            }
+
+            .link {
+                font-size: 13px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="imagenes/profile.jpg" width="75px">
+        <h1>Ignacio Bonavoglia</h1>
+        <p>Estudiante de la Tecnicatura en desarrollo de software</p>
+        
+        <a href="https://nachobona2005.github.io/identikit.github.io/" class="link">Identikit</a>
+        <a href="https://www.instagram.com/nachobona_/?hl=es" class="link">Mi instagram</a>
+        <a href="https://nachobona2005.github.io/blogarabes.gitbub.io/" class="link">Blog</a>
+        <a href="https://bm0510.github.io/disenoydesarrolloweb/final.html" class="link">Entrega final</a>
+    </div>
+</body>
+</html>
